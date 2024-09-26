@@ -3,7 +3,7 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-.wrapper {
+.layout {
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -11,7 +11,7 @@ body {
     background-color: #D5E1EF;
 }
 
-.card {
+.card-container {
     display: flex;
     flex-direction: column;
     max-width: 320px; /* Limit card width */
@@ -24,11 +24,11 @@ body {
     gap: 24px
 }
 
-.qr-code img {
+.card__qr-code img {
     width: 100%; /* Make image responsive */
     border-radius: 10px; /* Rounded corners for image */
 }
-.text-container {
+.card__description-container {
     display: flex;
     flex-direction: column;
     gap: 16px;
